@@ -3,3 +3,4 @@
 
 2. Открытый ключ (ключ сайта) находится на странице index.html (data-sitekey="6Leq_OkUAAAAAFg0g6rhR8JUHGSjBN_kl0stC5yZ").
 3. Секретный ключ хранится на сервере (application.properties) и используется для проверки капчи с сервера Google.
+4. При отправке данных с формы на контроллер происходит проверка капчи с ключом (g-recaptcha-response) сервисом Google (через сервисный метод verifyRecaptcha()).
